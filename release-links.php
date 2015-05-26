@@ -1,14 +1,14 @@
 <?php
 /*
   Plugin Name: Release Links
-  Plugin URI: http://imangascans.org/
+  Plugin URI: https://github.com/Imangascans/release-links
   Description: Provides the ability to add and display links below posts
   Version: 1.0
   Author: Georgi Kostadinov
   Author URI: https://imangascans.org/author/georgi/
   License: MIT
 
-  Copyright(c) 2015 Georgi Kostadionv (email : georgi@imangascans.org)
+  Copyright(c) 2015 Georgi Kostadinov (email : georgi@imangascans.org)
  
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -28,6 +28,7 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 */
+
 class ReleaseLinksPlugin {
   protected $action;
   protected static $nonce_key = 'release-links-nonce';
